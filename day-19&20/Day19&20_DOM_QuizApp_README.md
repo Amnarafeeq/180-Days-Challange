@@ -1,5 +1,5 @@
 
-# 💻 Day 19 of 180 – JavaScript DOM Quiz App
+# 💻 Day 19 & 20 of 180 – JavaScript DOM Quiz App
 
 ## 🧠 Learning Focus:
 JavaScript DOM Manipulation — Select, update, and interact with page elements using JavaScript.

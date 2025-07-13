@@ -1,4 +1,4 @@
-# 💻 Day 20 of 180 – JavaScript ES6 Refactor ✨
+# 💻 Day 21 of 180 – JavaScript ES6 Refactor ✨
 
 
 ## 🧠 Learning Focus
