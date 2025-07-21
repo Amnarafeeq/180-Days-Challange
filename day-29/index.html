@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amna's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌐 Amna's Portfolio</h1>
+    <nav aria-label="Main Navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="home-heading">
+      <h2 id="home-heading">Welcome to My Portfolio</h2>
+      <p>I’m Amna, a web developer passionate about building clean, responsive web experiences.</p>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I started my journey learning web development with HTML, CSS, and JavaScript.
+        I'm now exploring frameworks and building real-world applications.
+        My goal is to become a full-stack developer and contribute to impactful projects.
+      </p>
+    </section>
+
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">My Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>📝 Note-Taking App (CRUD)</h3>
+          <p>Manage notes with Create, Read, Update, Delete functionality using JS.</p>
+          <a href="#" target="_blank" aria-label="View Note Taking App">View App</a>
+        </article>
+
+        <article class="project-card">
+          <h3>❓ Quiz App</h3>
+          <p>A multiple-choice quiz app with scoring and JS interactivity.</p>
+          <a href="#" target="_blank" aria-label="View Quiz App">View App</a>
+        </article>
+
+        <!-- Add more projects here -->
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" aria-label="Contact Section">
+    <p>© 2025 Amna Rafeeq. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#" target="_blank" aria-label="Visit GitHub Profile">GitHub</a> |
+      <a href="#" target="_blank" aria-label="Visit LinkedIn Profile">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
